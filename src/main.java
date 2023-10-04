@@ -1,6 +1,6 @@
 
 public class main {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         //System.out.print("Hello, world");
 
         Cube cube1 = new Cube(3.0f);
