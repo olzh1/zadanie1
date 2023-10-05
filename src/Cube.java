@@ -1,15 +1,12 @@
-
-
+import lombok.Getter;
+import lombok.Builder;
+@Getter
+@Builder
 public class Cube implements Shape {
-    double a;
+    double Pll;
 
-    public Cube(double a){
-        this.a = a;
-    }
-
-    @Override
     public double getVolume(){
 
-        return a*a*a;
+        return Pll*Pll*Pll;
     }
 }
